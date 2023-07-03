@@ -6,6 +6,9 @@ module.exports = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        fontFamily: {
+            syne : 'Syne'
+        },
         screens: {
             sm: "640px",
             // => @media (min-width: 640px) { ... }

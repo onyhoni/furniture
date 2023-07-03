@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <main className="w-full h-screen bg-[url('/Hero.png')] object-cover bg-no-repeat">
+        <main className={`w-full h-screen bg-[url('/Hero.png')] object-cover ${inter.className}`}>
             <Container>
                 <Navbar />
                 <HeroSection />
